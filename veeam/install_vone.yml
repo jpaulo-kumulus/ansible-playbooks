@@ -10,7 +10,7 @@
     sql_service_password: "{{ sql_service_password }}"
     one_create_service_account: true #true==local false==domain
     one_username: "{{ one_username }}"
-    one_password: "{{ one_password }}!"
+    one_password: "{{ one_password }}"
     # https://docs.ansible.com/ansible/latest/vault_guide/vault_encrypting_content.html#creating-encrypted-variables
   tasks:
     - name: Veeam ONE Server installation tasks
